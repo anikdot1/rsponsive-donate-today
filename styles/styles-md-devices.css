@@ -1,0 +1,185 @@
+/* Media query */
+/* for medium/tablet devices */
+@media only screen and (min-width: 673px) and (max-width: 990px) {
+
+    .header {
+        width: 100%;
+        margin: 0;
+    }
+    .banner {
+        width: 100%;
+        margin: 0;
+        padding-top: 60px;
+    }
+    .banner-title {
+        font-size: 7vw;
+        font-weight: 600;
+        padding: 50px 30px 0px 30px;
+        margin: 0;
+    }
+
+    .section-title {
+        font-size: 6vw;
+        font-weight: 600;
+        padding: 20px 30px;
+        margin: 0px;
+    }
+
+    .banner-description {
+        font-size: 2.5vw;
+        padding: 40px 40px;
+        margin: 0;
+    }
+    .section-description {
+        font-size: 2.8vw;
+        margin-bottom: 0;
+        padding: 0 60px 30px 60px;
+      
+    }
+    .donate-today,
+    .donate-plan,
+    .get-update 
+    .howto-1
+    .howto-2 {
+        margin: 0;
+        margin-top: 100px;
+    }
+
+    .donation {
+        max-width: 100%;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .amount>p {
+        font-weight: 700;
+        font-size: 3.5vw;
+        text-align: center;
+        color: #707070;
+        margin: auto;
+    }
+
+    .amount {
+        width: 120px;
+        height: 100px;
+        display: flex;
+    }
+
+    .input-amount {
+        font-size: 3vw;
+        width: 60%;
+    }
+
+    .plan-section {
+        width: 90%;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .plan-1,
+    .plan-2,
+    .plan-3 {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .plan-title {
+        font-size: 2.8vw;
+        margin: 0px;
+    }
+
+    .plan-pic {
+        margin: 0px;
+        padding: 30px 20px 20px 20px;
+    }
+
+    .plan-description {
+        font-size: 2vw;
+        margin: 0px;
+        padding: 10px 20px 30px 20px;
+    }
+
+    /* active alternate sections */
+    .howto-1, .howto-2 {
+        display: none;
+    }
+    .howto-1-alternate {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 880px;
+        margin: 0;
+        margin-top: 120px;
+    }
+    .howto-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .howto-image-1, .howto-image-2 {
+        width: 90%;
+        margin: 0px;
+        padding-top: 10px;
+    }
+    .howto-details>h2,
+    .howto-details>p {
+        text-align: center;
+    }
+    .howto-details>p {
+        font-size: 2.5vw;
+        margin-bottom: 0;
+        padding: 20px 80px 30px;
+    }
+    .howto-2-alternate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 900px;
+        margin: 0;
+    }
+    .get-update {
+        margin: 0;
+    }
+    .email {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        
+    }
+
+    .input-email {
+        width: 70%;
+        margin-left: 20px;
+    }
+
+    .btn-email {
+        width: 30%;
+        margin-right: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 0 0 0;
+    }
+
+    .footer-title {
+        font-size: 6vw;
+        padding: 0;
+    }
+    .footer-description {
+        font-size: 2.5vw;
+        padding-bottom: 20px;
+    }
+}
